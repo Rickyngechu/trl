@@ -1,0 +1,28 @@
+.sidebar {
+    background-color: $color-primary;
+    grid-column: sidebar-start /sidebar-end;
+    grid-row: 1 /-1;
+}
+
+.nav-btn {
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+    margin-top: 3rem;
+    margin-left: 1.5rem;
+    color: transparent;
+
+    outline: none;
+    position: relative;
+    cursor: pointer;
+
+    span {
+        position: relative;
+        display: block;
+        height: 3px;
+        width: 5rem;
+        border-radius: 3px;
+        background-color: #fff;
+        margin-bottom: 1rem;
+    }
+}
